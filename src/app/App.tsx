@@ -91,7 +91,7 @@ export default function App() {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center gap-3"
           >
-            <span className="font-bold text-black dark:text-amber-500" style={{ fontSize: '28px', letterSpacing: '3px' }}>BULLBERG</span>
+            <span className="font-bold text-black dark:text-amber-500 text-2xl md:text-[28px]" style={{ letterSpacing: '3px' }}>BULLBERG</span>
           </motion.div>
 
           <motion.div
@@ -144,8 +144,8 @@ export default function App() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="font-bold text-white mb-6"
-            style={{ fontSize: '72px', letterSpacing: '4px', lineHeight: '1.1' }}
+            className="font-bold text-white mb-6 text-5xl md:text-[72px]"
+            style={{ letterSpacing: '4px', lineHeight: '1.2' }}
           >
             UNLEASH THE<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">
@@ -190,7 +190,7 @@ export default function App() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="font-bold text-gray-900 dark:text-white mb-4" style={{ fontSize: '48px', letterSpacing: '3px' }}>
+            <h2 className="font-bold text-gray-900 dark:text-white mb-4 text-4xl md:text-[48px]" style={{ letterSpacing: '3px' }}>
               OUR BEERS
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-amber-500 to-amber-600 mx-auto"></div>
@@ -219,7 +219,7 @@ export default function App() {
                       <div className={`absolute inset-0 bg-gradient-to-br ${beer.color} opacity-30 mix-blend-multiply`}></div>
                     </div>
 
-                    <h3 className="font-bold text-gray-900 dark:text-amber-500 mb-2" style={{ fontSize: '24px', letterSpacing: '2px' }}>
+                    <h3 className="font-bold text-gray-900 dark:text-amber-500 mb-2 text-xl md:text-[24px]" style={{ letterSpacing: '2px' }}>
                       {beer.name}
                     </h3>
 
@@ -275,7 +275,7 @@ export default function App() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="font-bold text-gray-900 dark:text-white mb-6" style={{ fontSize: '48px', letterSpacing: '3px' }}>
+              <h2 className="font-bold text-gray-900 dark:text-white mb-6 text-4xl md:text-[48px]" style={{ letterSpacing: '3px' }}>
                 THE LEGEND OF<br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">
                   THE BULL
@@ -324,7 +324,7 @@ export default function App() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="font-bold text-gray-900 dark:text-white mb-4" style={{ fontSize: '48px', letterSpacing: '3px' }}>
+            <h2 className="font-bold text-gray-900 dark:text-white mb-4 text-3xl md:text-[48px]" style={{ letterSpacing: '3px' }}>
               LIVE THE EXPERIENCE
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-amber-500 to-amber-600 mx-auto"></div>
@@ -381,7 +381,7 @@ export default function App() {
 
                   <div className="absolute inset-0 flex items-end p-8">
                     <div>
-                      <h3 className="font-bold text-white mb-2" style={{ fontSize: '24px', letterSpacing: '2px' }}>
+                      <h3 className="font-bold text-white mb-2 text-xl md:text-[24px]" style={{ letterSpacing: '2px' }}>
                         {item.title}
                       </h3>
                       <p className="text-amber-300">{item.desc}</p>
@@ -403,7 +403,7 @@ export default function App() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="font-bold text-gray-900 dark:text-white mb-4" style={{ fontSize: '48px', letterSpacing: '3px' }}>
+            <h2 className="font-bold text-gray-900 dark:text-white mb-4 text-3xl md:text-[48px]" style={{ letterSpacing: '3px' }}>
               WHAT LEGENDS SAY
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-amber-500 to-amber-600 mx-auto"></div>
@@ -456,7 +456,7 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
             <div>
               <div className="flex items-center gap-3 mb-6">
-                <span className="font-bold text-amber-500" style={{ fontSize: '28px', letterSpacing: '3px' }}>BULLBERG</span>
+                <span className="font-bold text-amber-500 text-2xl md:text-[28px]" style={{ letterSpacing: '3px' }}>BULLBERG</span>
               </div>
               <p className="text-gray-400">
                 Unleash the strength within. Premium strong beer for bold experiences.
@@ -565,7 +565,7 @@ export default function App() {
                   {selectedBeer.abv} ABV • {selectedBeer.notes}
                 </div>
                 
-                <h3 className="font-bold text-gray-900 dark:text-white mb-6" style={{ fontSize: '36px', letterSpacing: '2px', lineHeight: '1.2' }}>
+                <h3 className="font-bold text-gray-900 dark:text-white mb-6 text-3xl md:text-[36px]" style={{ letterSpacing: '2px', lineHeight: '1.2' }}>
                   {selectedBeer.name}
                 </h3>
                 
@@ -620,7 +620,7 @@ export default function App() {
                 <X className="w-5 h-5" />
               </button>
 
-              <h3 className="font-bold text-gray-900 dark:text-white mb-2" style={{ fontSize: '32px', letterSpacing: '1px' }}>
+              <h3 className="font-bold text-gray-900 dark:text-white mb-2 text-2xl md:text-[32px]" style={{ letterSpacing: '1px' }}>
                 BECOME A PARTNER
               </h3>
               <p className="text-gray-600 dark:text-gray-400 mb-8 text-lg">
